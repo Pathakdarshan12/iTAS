@@ -91,7 +91,7 @@
         {% if request.user.is_authenticated and not request.user.is_superuser %}
 
         <li class="nav-item">
-          <a class="nav-link text-white {% if 'tables' in segment %} active {% endif %} " href="{% url 'tables' %}">
+          <a class="nav-link text-white {% if 'job_search' in segment %} active {% endif %} " href="{% url 'job_search' %}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">table_view</i>
             </div>
@@ -99,7 +99,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white {% if 'billing' in segment %} active {% endif %} " href="{% url 'billing' %}">
+          <a class="nav-link text-white {% if 'resume_analyzer' in segment %} active {% endif %} " href="{% url 'resume_analyzer' %}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">receipt_long</i>
             </div>
@@ -114,14 +114,6 @@
             <span class="nav-link-text ms-1">Personal Info</span>
           </a>
         </li>
-        {% comment %} <li class="nav-item">
-          <a class="nav-link text-white {% if 'rtl' in segment %} active {% endif %} " href="{% url 'rtl' %}">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">format_textdirection_r_to_l</i>
-            </div>
-            <span class="nav-link-text ms-1">RTL</span>
-          </a>
-        </li> {% endcomment %}
         <li class="nav-item">
           <a class="nav-link text-white {% if 'notification' in segment %} active {% endif %} " href="{% url 'notification' %}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -142,7 +134,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white " href="{% url 'profile' %}">
+          <a class="nav-link text-white " href="{% url 'logout' %}">
             <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
               <i class="material-icons opacity-10">assignment</i>
             </div>
@@ -152,12 +144,5 @@
         {% endif %}
       </ul>
     </div>
-    <!-- 
-    <div class="sidenav-footer position-absolute w-100 bottom-0 ">
-      <div class="mx-3">
-        <a class="btn bg-gradient-primary mt-4 w-100" target="_blank" 
-           href="https://appseed.us/product/material-dashboard2-pro/django/" type="button">PRO Version</a>
-      </div>
-    -->
     </div>
   </aside>
