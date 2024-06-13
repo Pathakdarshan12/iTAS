@@ -102,7 +102,7 @@ DB_NAME     = os.getenv('DB_NAME'     , None)
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'iTAS',
+        'NAME': 'itas',
         'USER': 'root',
         'PASSWORD': 'root',
         'HOST': '127.0.0.1',

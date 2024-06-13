@@ -10,7 +10,7 @@ class Command(BaseCommand):
         # Scrape jobs and get DataFrame
         jobs_df = scrape_jobs(
             site_name=["linkedin"],
-            search_term="Data Analyst",
+            search_term="Full Stack Developer",
             location="Pune, Maharashtra, India",
             results_wanted=5,
             hours_old=24,
@@ -25,7 +25,7 @@ class Command(BaseCommand):
                         title=job_data['title'],
                         company=job_data['company'],
                         location=job_data['location'],
-                        status=job_data['company'],  # Corrected column name
+                        status=job_data['company'],
                         platform=job_data['site'],
                         link=job_data['job_url'],
                     )

@@ -5,7 +5,6 @@
       <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href="" target="_blank">
         <img src="{% static 'logo/svg/logo-no-background.svg' %}" class="navbar-brand-img h-100 w-100" alt="main_logo">
-        <!-- <span class="ms-1 font-weight-bold text-white">iTAS</span> -->
       </a>
     </div>
     <hr class="horizontal light mt-0 mb-2">
@@ -60,7 +59,7 @@
 
                 <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                     <svg width="12px" height="12px" viewBox="0 0 45 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <title>shop </title>
+                    <title>Dashboard</title>
                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                         <g transform="translate(-1716.000000, -439.000000)" fill="#FFFFFF" fill-rule="nonzero">
                         <g transform="translate(1716.000000, 291.000000)">
@@ -76,17 +75,6 @@
                 <span class="nav-link-text ms-1">{% trans 'Dashboard' %}</span>
             </a>
         </li>
-
-        <!--
-        <li class="nav-item">
-          <a class="nav-link text-white {% if 'SEGMENT_HERE' in segment %} active {% endif %} " href="#">
-            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-              <i class="material-icons opacity-10">table_view</i>
-            </div>
-            <span class="nav-link-text ms-1">LINK_HERE</span>
-          </a>
-        </li>
-        -->
 
         {% if request.user.is_authenticated and not request.user.is_superuser %}
 

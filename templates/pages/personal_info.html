@@ -125,21 +125,21 @@
                         type="button"
                         title="User Info"
                       >
-                        <span>User Info</span>
+                        <span>Applicant Info</span>
                       </button>
                       <button
                         class="multisteps-form__progress-btn"
                         type="button"
                         title="Address"
                       >
-                        Address
+                        Skills
                       </button>
                       <button
                         class="multisteps-form__progress-btn"
                         type="button"
                         title="Socials"
                       >
-                        Socials
+                        Role
                       </button>
                       <button
                         class="multisteps-form__progress-btn"
@@ -200,6 +200,7 @@
                             </div>
                           </div>
                         </div>
+                        {% comment %}
                         <div class="row mt-3">
                           <div class="col-12 col-sm-6">
                             <div class="input-group input-group-dynamic">
@@ -228,7 +229,7 @@
                           >
                             Next
                           </button>
-                        </div>
+                        </div> {% endcomment %}
                       </div>
                     </div>
 
@@ -236,13 +237,13 @@
                       class="multisteps-form__panel border-radius-xl bg-white"
                       data-animation="FadeIn"
                     >
-                      <h5 class="font-weight-bold mb-0">Address</h5>
-                      <p class="mb-0 text-sm">Tell us where are you living</p>
+                      <h5 class="font-weight-bold mb-0">Skills</h5>
+                      <p class="mb-0 text-sm">Tell us about your skills</p>
                       <div class="multisteps-form__content">
                         <div class="row mt-3">
                           <div class="col">
                             <div class="input-group input-group-dynamic">
-                              <label class="form-label">Address 1</label>
+                              <label class="form-label">Skill 1</label>
                               <input
                                 class="multisteps-form__input form-control"
                                 type="text"
@@ -253,37 +254,7 @@
                         <div class="row mt-3">
                           <div class="col">
                             <div class="input-group input-group-dynamic">
-                              <label class="form-label">Address 2</label>
-                              <input
-                                class="multisteps-form__input form-control"
-                                type="text"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row mt-3">
-                          <div class="col-12 col-sm-6">
-                            <div class="input-group input-group-dynamic">
-                              <label class="form-label">City</label>
-                              <input
-                                class="multisteps-form__input form-control"
-                                type="text"
-                              />
-                            </div>
-                          </div>
-                          <div class="col-6 col-sm-4 mt-3 mt-sm-0">
-                            <select
-                              class="form-control"
-                              name="choices-state"
-                              id="choices-state"
-                            >
-                              <option value="Asia" selected>Asia</option>
-                              <option value="America">America</option>
-                            </select>
-                          </div>
-                          <div class="col-6 col-sm-2 mt-3 mt-sm-0">
-                            <div class="input-group input-group-dynamic">
-                              <label class="form-label">Zip</label>
+                              <label class="form-label">Skill 2</label>
                               <input
                                 class="multisteps-form__input form-control"
                                 type="text"
@@ -314,15 +285,15 @@
                       class="multisteps-form__panel border-radius-xl bg-white"
                       data-animation="FadeIn"
                     >
-                      <h5 class="font-weight-bolder mb-0">Socials</h5>
+                      <h5 class="font-weight-bolder mb-0">Role</h5>
                       <p class="mb-0 text-sm">
-                        Please provide at least one social link
+                        Please provide us which role will you prefer
                       </p>
                       <div class="multisteps-form__content">
                         <div class="row mt-3">
                           <div class="col-12">
                             <div class="input-group input-group-dynamic">
-                              <label class="form-label">Twitter Handle</label>
+                              <label class="form-label">Role 1</label>
                               <input
                                 class="multisteps-form__input form-control"
                                 type="text"
@@ -331,7 +302,7 @@
                           </div>
                           <div class="col-12 mt-3">
                             <div class="input-group input-group-dynamic">
-                              <label class="form-label">Facebook Account</label>
+                              <label class="form-label">Role 2</label>
                               <input
                                 class="multisteps-form__input form-control"
                                 type="text"
@@ -341,7 +312,7 @@
                           <div class="col-12 mt-3">
                             <div class="input-group input-group-dynamic">
                               <label class="form-label"
-                                >Instagram Account</label
+                                >Role 3</label
                               >
                               <input
                                 class="multisteps-form__input form-control"
@@ -384,7 +355,7 @@
                               <textarea
                                 class="multisteps-form__textarea form-control"
                                 rows="5"
-                                placeholder="Say a few words about who you are or what you're working on."
+                                placeholder="Say a few words about yourself."
                               ></textarea>
                             </div>
                           </div>
@@ -404,7 +375,6 @@
                           >
                             Send
                           </button>
-                        </div>
                       </div>
                     </div>
                   </form>
