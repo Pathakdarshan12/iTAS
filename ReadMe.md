@@ -119,7 +119,10 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 ## Authors
 
-- **Mr. Darshan S. Pathak** - [GitHub](https://github.com/your-username)
+- **Mr. Darshan S. Pathak** - [GitHub](https://github.com/Pathakdarshan12)
+                            - [LinkedIn](https://www.linkedin.com/in/pathakdarshan12/)
+                            - [Gmail](mailto:pathakdarshan@gmail.com)
+
 
 ## License
 
