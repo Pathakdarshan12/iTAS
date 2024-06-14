@@ -1,10 +1,6 @@
-Certainly! Here's a detailed README file template for your project on GitHub:
-
----
-
 # Intelligent Talent Acquisition System
 
-This project is a mini-project developed as part of the Master's in Computer Application program at Pimpri Chinchwad College of Engineering, Nigadi, Pune, affiliated with Savitribai Phule University Pune. The goal of this project is to create an "Intelligent Talent Acquisition System" using advanced technologies to streamline the recruitment process.
+This project is a mini-project developed as part of the Master's in Computer Application program. The Intelligent Talent Acquisition System leverages advanced technologies like deep learning and machine learning to streamline and enhance the recruitment process. This system automates tasks such as resume parsing, skill matching, and interview scheduling, making hiring faster, more accurate, and more efficient.
 
 ## Table of Contents
 
@@ -37,9 +33,7 @@ The "Intelligent Talent Acquisition System" aims to revolutionize the hiring pro
 - **Frontend:** HTML, CSS, JavaScript, Bootstrap
 - **Backend:** Django, Flask, Python, MySQL
 - **Deep Learning:** Transformers, Gemma-7b, HuggingFace, TensorFlow, PyTorch
-- **Tools:** Gradio, VSCode, GitHu
-
-## System Requirements
+- **Tools:** Gradio, VSCode, GitHub, Colab
 
 ### Hardware Requirements
 
@@ -57,12 +51,12 @@ The "Intelligent Talent Acquisition System" aims to revolutionize the hiring pro
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/intelligent-talent-acquisition.git
+   git clone https://github.com/Pathakdarshan12/iTAS.git
    ```
 
 2. Navigate into the project directory:
    ```
-   cd intelligent-talent-acquisition
+   cd iTAS
    ```
 
 3. Install dependencies:
@@ -128,6 +122,3 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
----
-
-Feel free to customize this README file further based on your specific project details and structure. Ensure to update the links, descriptions, and instructions according to your project's actual implementation and requirements.
