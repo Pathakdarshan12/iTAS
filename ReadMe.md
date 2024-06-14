@@ -90,7 +90,7 @@ intelligent-talent-acquisition/
 ├── README.md
 ├── requirements.txt
 ├── manage.py
-├── yourapp/
+├── core/
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
