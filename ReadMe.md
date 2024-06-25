@@ -1,8 +1,9 @@
-Certainly! Here's a detailed README file template for your project on GitHub:
-
----
 
 # Intelligent Talent Acquisition System
+
+<p align="center">
+   <img src="screenshots/itas.png">
+</p>
 
 This project is a mini-project developed as part of the Master's in Computer Application program at Pimpri Chinchwad College of Engineering, Nigadi, Pune, affiliated with Savitribai Phule University Pune. The goal of this project is to create an "Intelligent Talent Acquisition System" using advanced technologies to streamline the recruitment process.
 
@@ -125,6 +126,21 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
----
 
-Feel free to customize this README file further based on your specific project details and structure. Ensure to update the links, descriptions, and instructions according to your project's actual implementation and requirements.
+## Contact
+<p align="left">
+<a href="https://www.linkedin.com/in/pathakdarshan12/" target="blank">
+    <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg" alt="linkedin" height="30" width="40" />
+</a>
+<a href="https://x.com/_Pathak_Darshan" target="blank">
+    <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Twitter.svg" alt="twitter" height="30" width="40" />
+</a>
+<a href="https://www.instagram.com/pathakdarshan12/" target="blank">
+    <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Instagram.svg" alt="instagram" height="30" width="40" />
+</a>
+<a href="mailto:pathakdarshan12@gmail.com" target="blank">
+    <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/Gmail-Dark.svg" alt="gmail" height="30" width="40" />
+</a>
+</p>
+
+![](https://komarev.com/ghpvc/?username=Pathakdarshan12&style=plastic)
