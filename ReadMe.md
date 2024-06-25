@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Intelligent Talent Acquisition System
 
@@ -7,11 +6,6 @@
 </p>
 
 This project is a mini-project developed as part of the Master's in Computer Application program at Pimpri Chinchwad College of Engineering, Nigadi, Pune, affiliated with Savitribai Phule University Pune. The goal of this project is to create an "Intelligent Talent Acquisition System" using advanced technologies to streamline the recruitment process.
-=======
-# Intelligent Talent Acquisition System
-
-This project is a mini-project developed as part of the Master's in Computer Application program. The Intelligent Talent Acquisition System leverages advanced technologies like deep learning and machine learning to streamline and enhance the recruitment process. This system automates tasks such as resume parsing, skill matching, and interview scheduling, making hiring faster, more accurate, and more efficient.
->>>>>>> 92ef48bd7415930407a50d21537ab4f3a41fcbb2
 
 ## Table of Contents
 
@@ -133,7 +127,6 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-<<<<<<< HEAD
 
 ## Contact
 <p align="left">
@@ -152,5 +145,3 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 </p>
 
 ![](https://komarev.com/ghpvc/?username=Pathakdarshan12&style=plastic)
-=======
->>>>>>> 92ef48bd7415930407a50d21537ab4f3a41fcbb2
