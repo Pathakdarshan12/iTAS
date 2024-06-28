@@ -127,9 +127,11 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
-
 ## Contact
 <p align="left">
+<a href="https://pathakdarshan12.github.io/Portfolio/" target="blank">
+    <img align="center" src="https://github.com/Pathakdarshan12/Pathakdarshan12/blob/main/assets/icons/portfolio_icon.ico" alt="portfolio" height="40" width="40" />
+</a>
 <a href="https://www.linkedin.com/in/pathakdarshan12/" target="blank">
     <img align="center" src="https://github.com/tandpfun/skill-icons/blob/main/icons/LinkedIn.svg" alt="linkedin" height="30" width="40" />
 </a>
