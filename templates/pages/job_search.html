@@ -1,0 +1,69 @@
+{% extends "layouts/base.html" %}
+{% load i18n static %}
+
+{% block title %} job_search {% endblock title %}
+
+{% block content %}
+
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="card my-4">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                <h6 class="text-white text-capitalize ps-3">Job Updates</h6>
+              </div>
+            </div>
+            <div class="card-body px-0 pb-2">
+              <div class="table-responsive p-0">
+                <table class="table align-items-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Job Title</th>
+                      <th style="width: 150px; text-align: left; overflow: hidden;" class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Company</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Location</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Platform</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for job in jobs %}
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1">
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">{{ job.title }}</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td style="width: 150px; text-align: left; overflow: hidden;">
+                        <p class="text-sm font-weight-bold mb-0">{{ job.company }}</p>
+                    </td>                    
+                      <td class="align-left">
+                        <span class="text-xs font-weight-bold mb-0">{{ job.location }}</span>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">{{ job.platform }}</p>
+                      </td>
+                      <td class="align-middle">
+                        <a href="{{ job.link }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" target="_blank">
+                          <span class="badge badge-sm bg-gradient-success">Apply</span>
+                        </a>
+                        <a href="{{ job.link }}" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user" target="_blank">
+                          <span class="badge badge-sm bg-gradient-info">Save</span>
+                        </a>
+                      </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% include 'includes/footer.html' %}
+    </div>
+  </main>
+
+{% endblock content %}
+ 

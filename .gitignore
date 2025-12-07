@@ -1,0 +1,45 @@
+*.pyc
+*.DS_Store
+*.egg*
+/dist/
+/.idea
+/docs/_build/
+/node_modules/
+build/
+env
+/staticfiles/
+
+#src
+#*.sqlite*
+
+env
+node_modules
+
+
+# Ignore Django generated files
+*.pyc
+__pycache__/
+*.sqlite3
+
+# Ignore system files
+*.DS_Store
+Thumbs.db
+
+# Ignore environment-specific settings
+.env
+
+# Ignore IDE/Editor specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and media files
+logs/
+media/
+
+# Ignore dependencies directory
+venv/
+env/
+
+# Ignore configuration files
+*.cfg
