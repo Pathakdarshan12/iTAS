@@ -6,7 +6,7 @@
 
 {% block content %}
 
-<html>
+<html lang="">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -105,6 +105,7 @@
       rel="stylesheet"
     />
     <link href="../../assets/docs.css" rel="stylesheet" />
+      <title></title>
   </head>
   <body class="docs">
     <div class="ct-docs-main-container">
@@ -205,10 +206,12 @@
                           <div class="col-12 col-sm-6">
                             <div class="input-group input-group-dynamic">
                               <label class="form-label">Password</label>
-                              <input
-                                class="multisteps-form__input form-control"
-                                type="password"
-                              />
+                                <label>
+                                    <input
+                                      class="multisteps-form__input form-control"
+                                      type="password"
+                                    />
+                                </label>
                             </div>
                           </div>
                           <div class="col-12 col-sm-6 mt-3 mt-sm-0">
@@ -376,6 +379,7 @@
                             Send
                           </button>
                       </div>
+                    </div>
                     </div>
                   </form>
                 </div>

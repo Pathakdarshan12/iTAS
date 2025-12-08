@@ -89,23 +89,14 @@ WSGI_APPLICATION = "core.wsgi.application"
 
 
 # Database
-# https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-
-DB_ENGINE   = os.getenv('DB_ENGINE'   , None)
-DB_USERNAME = os.getenv('DB_USERNAME' , None)
-DB_PASS     = os.getenv('DB_PASS'     , None)
-DB_HOST     = os.getenv('DB_HOST'     , None)
-DB_PORT     = os.getenv('DB_PORT'     , None)
-DB_NAME     = os.getenv('DB_NAME'     , None)
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'itas',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': '127.0.0.1',
-        'PORT': '3306', 
+        'USER': 'itas_user',
+        'PASSWORD': 'itas_user',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
