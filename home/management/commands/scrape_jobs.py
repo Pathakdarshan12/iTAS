@@ -15,7 +15,7 @@ class Command(BaseCommand):
         # Fixed parameters
         search_term = 'data engineer'
         location = 'Pune, Maharashtra, India'
-        results_wanted = 1000
+        results_wanted = 10000
 
         # Generate batch ID for this scraping session
         batch_id = str(uuid.uuid4())
